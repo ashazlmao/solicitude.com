@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+    /*Colors*/
+    --primary-bg: #FAFAF8;
+    --primary-text: #1F1F1F;
+    --primary-accent: #E6C86E;
+    --hover-accent: #D9B955;
+    --secondary-accent: #6B6F72;
+    --alternate-section-bg: #F1F0EC;
+    --borders-UI-lines: #E3E1DB;
+
+    /*Typography*/
+    --heading-font: "Libre Baskerville", "Baskerville", "Baskerville Old Face", "Times New Roman", Times, Georgia, serif;
+    --body-font: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+h1{font-family: var(--heading-font); font-weight: 400; font-size: 48px; line-height: 1.2;}
+h2{font-family: var(--heading-font); font-weight: 400; font-size: 36px; line-height: 1.25;}
+h3{font-family: var(--body-font); font-weight: 500; font-size: 20px; line-height: 1.4;}
+p{font-family: var(--body-font); font-weight: 400; font-size: 16px; line-height: 1.7;}
+a{font-family: var(--body-font); font-weight: 500; font-size: 16px; line-height: 1.4;}
+
+@media (max-width: 728px) {
+    h1{font-size: 36px;}
+    h2{font-size: 28px;}
+    h3{font-size: 18px;}
+}
+
+h1, h2, h3, p, a{
+    color: var(--primary-text);
+}
+
+/*base reset*/
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+/*Background-color*/
+
+body{background-color: var(--primary-bg);}
+
+a{text-decoration: none;}
