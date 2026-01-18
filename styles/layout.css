@@ -59,6 +59,9 @@
     .hero-image {
       display: none;
     }
+    .hero-layout{
+      height: auto;
+    }
   }
 
 /*Image Layout*/
@@ -215,4 +218,5 @@
   width: 100%;
   padding: 24px 50px;
   background-color: var(--alternate-section-bg);
+
 }
